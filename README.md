@@ -10,4 +10,5 @@ A Tour APP Built Using Pure NodeJS and PUG as the front end
 6. Different Types of Middlewares (Query, Document, Model, Aggregate)
 7. JWT (For Authentication)
 8. Bcrypt (To Hash Password)
+9. PUG (as the front-end)
 
