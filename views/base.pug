@@ -1,0 +1,44 @@
+doctype html
+html
+    block head
+        head
+            meta(charset="UTF-8")
+            meta(name="viewport" content="width=device-width, initial-scale=1.0")
+            //- If we want to add javascript variable to the string, use this interpulation - #{tour}
+            title Natours | Exciting tours for adventurous people 
+            link(rel="stylesheet" href="/css/style.css")
+            link(rel="shortcut icon" type="image/png" href="/img/favicon.png")
+            link(rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
+    body
+        //- //- By using =, we can use javascript variable
+        //- h1= tour
+        //- h2= user.toUpperCase()
+        //- //- h1 The Park Camper Tour
+        //- //- Non buffer code will not add to the output
+        //- //- Buffer code will add to the output
+        //- //- Non buffer code
+        //- - const x = 9
+        //- //- Buffer code
+        //- h2= 2 * x
+        //- p This is just some text
+
+        //- Header
+        include _header
+        //- Content
+        block content 
+            h1 This is header
+
+        //- Footer
+        include _footer
+
+        //- script(src="/js/mapbox.js")
+        //- script(src="/js/login.js")
+        //- script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js')
+        script(src='https://js.stripe.com/v3/')
+        script(src="/js/bundle.js")
+        
+
+
+
+
+            
